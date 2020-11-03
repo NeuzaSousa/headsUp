@@ -1,14 +1,16 @@
 # Heads-Up
 
 ## Project summary
+
 The purpose of this app is to act as a simple service and support tool for the victims of sexual assault and members of communities where attacks are known to have taken place.
 The objective is that everybody can use it and it can help as a way so that victims can help other community members as a way to prevent more sexual attacks and to make it easier to catch sexual offenders. We decided to make the project worldwide because there is nothing like this yet and because this could help especially migrants and refugees who are usually some of the most vulnerable members of society.
 We chose the title "Heads-Up" because it makes sense in two ways:
+
 * Firstly because a "heads-up" is a warning, or a message that alerts or prepares
 * Also because sexual assault victims tend to feel shame and this is a way to empower them so that they can hold their heads up high.
 
-
 ## Features
+
 * Interactive city map with markers showing attacks by location
 * Users can contribute details of attack via submit form, which will take the date, time, location and description of attacker to store in database
 * Users should be able to filter/search map to define location and date/time range
@@ -18,6 +20,7 @@ We chose the title "Heads-Up" because it makes sense in two ways:
 * Member's support forum (tbc)
 
 ## Technologies
+
 * React
 * JavaScript
 * Css
@@ -28,29 +31,35 @@ We chose the title "Heads-Up" because it makes sense in two ways:
 * Package manager: NPM
 
 ## Backend
+
 Database scheme
+
 ![Database](images/database.JPG)
 
-- Database of 'attacks' includes:
-  - date_time
-  - location
-  - description
-  - lat
-  - lng
+* Database of 'attacks' includes:
+  * date_time
+  * location
+  * description
+  * lat
+  * lng
 
-- Methods:
-  - post method to add attack
-  - get method to get all attacks
-  - get method to get attacks by location, date or both
+* Methods:
+  * post method to add attack
+  * get method to get all attacks
+  * get method to get attacks by location, date or both
 
 ## Design & user-flow
-Landing page mock-up
+
+### Landing page mock-up
+
 ![Landing page](images/landing-page-mockup.jpg)
 
-Site map
+### Site map
+
 ![Site map](images/site-map.jpg)
 
-User flow
+### User flow
+
 ![User flow](images/userflow.JPG)
 
 _This is a student project that was created at [CodeOp](http://codeop.tech), a full stack development bootcamp in Barcelona._
